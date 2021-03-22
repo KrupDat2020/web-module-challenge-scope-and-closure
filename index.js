@@ -102,7 +102,10 @@ Use the getInningScore() function below to do the following:
   2. Return an object with a score for home and a score for away that populates from invoking the inning callback function */
 
 function getInningScore(inningcb) {
-return {Home:home(inning), Away:away(inning)};
+  let homeInnings = 0;
+  let awayInnings = 0;
+for(let i = 0; i < numberInnings; i++);
+return {Home:homeInnings, Away:awayInnings};
 }
 
 
